@@ -1,0 +1,10 @@
+.sqlContainer {
+  width: 100%;
+  border: 1px solid var(--light-grey);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}

@@ -1,0 +1,78 @@
+:root {
+  --box-heights: 15px;
+  --rounded-border: 5px;
+  --light-grey: #a8b5c6;
+}
+
+select {
+  width: 100%;
+  border-radius: var(--rounded-border);
+  padding: 5px;
+  border: 1px solid var(--light-grey);
+}
+
+input {
+  border: 1px solid var(--light-grey);
+  border-radius: var(--rounded-border);
+}
+
+.ctaBtn {
+  background: #23a7f0;
+  border-radius: var(--rounded-border);
+  border: 1px solid transparent;
+  color: white;
+  padding: 8px;
+}
+
+.resetBtn {
+  background: var(--light-grey);
+  width: 60px;
+  border: 1px solid transparent;
+  padding: 8px;
+  color: white;
+  border-radius: var(--rounded-border);
+}
+
+.searchBtn {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.appContainer {
+  margin: auto;
+  width: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
